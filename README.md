@@ -5,7 +5,7 @@ This system contains rooms and students, where students can perform actions acco
 # System Architecture
 **There are three different types of students:** A student can only belong to one of these types.
 
-• Diligent student - works when the room to which he belongs receives a work order, every time the room works he announces that he is working.
+• Worker student - works when the room to which he belongs receives a work order, every time the room works he announces that he is working.
 
 • Lazy student - complains every time he has to move room and every time the room is deleted he complains.
 
@@ -15,7 +15,7 @@ This system contains rooms and students, where students can perform actions acco
 
 • Standard room - a room that at the time of its creation every student is capable of being.
 
-• Diligent room - a room that at the time of its creation holds only diligent students.
+• Worker room - a room that at the time of its creation holds only diligent students.
 
 • Lazy room - a room that at the time of creation holds only lazy students.
 
