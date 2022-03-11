@@ -2,6 +2,8 @@
 **A system that simulates the video chatting software ZOOM**
 This system contains rooms and students, where students can perform actions according to their type.
 
+The user can enter inputs and view outputs by using the various functionality of the system in the CMD menu.
+
 # System Architecture
 **There are three different types of students:** A student can only belong to one of these types.
 
