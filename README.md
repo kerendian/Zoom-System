@@ -3,7 +3,7 @@
 This system contains rooms and students, where students can perform actions according to their type.
 
 # System Architecture
-***There are three different types of students:*** A student can only belong to one of these types.
+**There are three different types of students:** A student can only belong to one of these types.
 
 • Diligent student - works when the room to which he belongs receives a work order, every time the room works he announces that he is working.
 
