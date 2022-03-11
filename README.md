@@ -40,6 +40,14 @@ There are 2 different types of splits: split according to the number of students
 
 • Every time a lazy student leaves his room following a room erasure he prints a complaint message.
 
+**There is additional functionality such as:** 
+
+• adding and deleting a student from a room. 
+
+• a student can send messages according to its type. 
+
+• adding and deleting a student from the system.
+
 # Error handling 
 **according to the types of errors:**
 
