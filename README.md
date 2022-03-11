@@ -31,9 +31,14 @@ There are 2 different types of splits: split according to the number of students
 • Split by quantity: 2 standard rooms are created and the students are divided into rooms according to the order in which they are added to the current room, half of the students who joined the room first will move to the left room, and the other half to the right. For example, if there are 9 students in a room then after the split the 4 old students will belong to the left room and the new 5 to the right room (if there is an odd number the right room will be larger). After this split no students are left in the split room.
 
 **Deleting a room:** We performed recursively - as deleting from binary tree
-When a room is deleted, all the sub-rooms associated with it are also deleted. That is, all students belonging to this room or one of its sub-rooms) can be more than 2 if its sub-room is also split (will move to the room that created it). Will be left without a room (as if they have just entered the system, ID of room 1.) - The order to delete the rooms is left-handed, right-handed and only then the father (this order is valid in all cases - even if there are "grandchildren" and more)
-The order in which the students are taken out of the room is according to their order of entry - the oldest leaves first and enters the father's room.
-Every time a lazy student leaves his room following a room erasure he prints a complaint message.
+
+• When a room is deleted, all the sub-rooms associated with it are also deleted. That is, all students belonging to this room or to one of its sub-rooms (can be more than 2 if its sub-room is also split) will move to the room that created it (its father’s room). If there is no master bedroom (i.e. a room that was not created as a result of splitting is deleted) the students will be left without a room (as if they have just entered the system, ID room -1).
+
+• The order to delete the rooms is left-handed, right-handed and only then the father (this order is valid in all cases - even if there are "grandchildren" and even more)
+
+• The order in which the students are taken out of the room is according to their order of entry - the oldest leaves first and enters the father's room.
+
+• Every time a lazy student leaves his room following a room erasure he prints a complaint message.
 
 # Error handling 
 **according to the types of errors:**
